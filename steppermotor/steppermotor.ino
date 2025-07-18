@@ -6,7 +6,7 @@ const int stepsPerRevolution = 2048;
 Stepper stepper(stepsPerRevolution, 8, 10, 9, 11);
 
 void setup() {
-  stepper.setSpeed(10); // langsam anfangen
+  stepper.setSpeed(5); // langsam anfangen, maximum 18
 }
 
 void loop() {
